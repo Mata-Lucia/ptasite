@@ -9,6 +9,85 @@
     <script src="main.js"></script>
 </head>
 <body>
-    <h1>Foothill PTA</h1>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="">PTA</a></li>
+                <li><a href="">Parents</a></li>
+                <li><a href="">School Information</a></li>
+            </ul>
+        </nav>
+        <img src="images/FoothillPage.png" alt="Foothhill PTA Banner">
+    </header>
+    <main>
+        <div>
+            <h2 class="newstitle">Latest News</h2>
+            <div class="newsdiv">
+                <div class="newsitems">
+                    <img src="images/news1.jpg" alt="Join the PTA">
+                    <img src="images/news2.png" alt="Celebrate Foothill">
+                    <img src="images/news3.jpeg" alt="Foothill Shirts">
+                </div>
+                <div class="newsbuttondiv">
+                    <a href="news.html" class="newsbutton">More News</a>
+                </div>
+            </div>
+        </div>
+        <div>
+            <h2 class="volunteertitle">Log In Your Volunteer Hours</h2>
+            <form action="thankvolunteer.html">
+                <div class="volunteerform">
+                    <p>Add your PTA volunteers hours below. We recommend you enter your hours at the end of each month.</p>
+                    <label for="name">Name:</label><input type="text"><br>
+                    <label for="email">Email:</label><input type="text"><br>
+                    <label for="date">Date:</label><input type="text"><br>
+                    <label for="hours">Hours:</label><input type="text"><br>
+                </div>
+                <div class="volunteerbutton">
+                    <input type="submit" class="volunteerbutton"> 
+                </div>
+            </form>
+        </div>
+        <div>
+            <h2 class="contacttitle">Contact the PTA</h2>
+            <form action="thankcontact.html">
+                <div class="contactform">
+                    <p>Sends us any questions or concerns and we will get back to you as soon as possible.</p>
+                    <label for="name">Name:</label><input type="text"><br>
+                    <label for="email">Email:</label><input type="text"><br>
+                    <label for="comment">Comment:</label><input style="height:150px;" .....><br>
+                </div>
+                <div class="contactbutton">
+                    <input type="submit"> 
+                </div>
+            </form>
+        </div>
+        <div class="footer">
+            <div class="newsletter">
+                <h3>Newsletter Sign Up</h3>
+                <form action="thanksignup.html">
+                    <div class="newsletterform">
+                        <p>We send out the September Newsletter, one per family to the 
+                        family reps, to help introduce you to the PTA Newsletter. However, 
+                        to avoid the printing costs, we will only be sending it out by email. 
+                        Please provide your email to receive the Newsletter every month.</p>
+                        <label for="name">Name:</label><input type="text"><br>
+                        <label for="email">Email:</label><input type="text"><br>
+                    </div>
+                    <div class="newsletterbutton">
+                        <input type="submit">   
+                    </div>
+                </form>
+            </div>
+            <div class="social">
+                <h3>Follow Us for Quick Updates</h3>
+                <div class="sociallinks">
+                    <a href="https://www.facebook.com/FoothillPTA/"><img src="images/facebook.png" alt="PTA Facebook"></a>
+                    <a href="http://instagram.com/oremfoothillpta"><img src="images/instagram.png" alt="PTA Instagram"></a>
+                </div>
+            </div>
+        </div>
+    </main>
 </body>
 </html>
