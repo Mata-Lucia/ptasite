@@ -11,7 +11,7 @@ header img {
 
 /* Navigation */
 
-nav ul {
+/*nav ul, .dropdown ul {
     list-style-type: none;
     display: flex;
     justify-content: flex-end;
@@ -27,7 +27,88 @@ nav a {
     color: #00416D;
     font-weight: bold;
     font-size: 1rem;   
+}*/
+
+ul {
+    list-style-type: none;
+    /*background-color: #C2EBEF;*/
+    margin: 10px;
+    padding: 2px;
+    
+    /*border-style: solid;*/
+    /*border-color:  rgb(137, 138, 138);*/
+
 }
+
+.navbar {
+    overflow: hidden;
+    /*background-color: #C2EBEF;*/
+  }
+  
+  .navbar a {
+    float: right;
+    font-size: 1.2rem;
+    color: #00416D;
+    font-weight: bold;
+    /*padding: 5%;*/
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    /*margin-right: 5%;*/
+  }
+  
+  .dropdown {
+    overflow: hidden;
+    float: right;
+    margin-right:10%;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 1.2rem;  
+    border: none;
+    outline: none;
+    color: #00416D;
+    font-weight: bold;
+    background-color: #f8f8f8;
+    /*background-color: inherit;
+    font-family: inherit;*/
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+  .navbar a:hover{
+    color:#FF4D20;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f8f8f8;
+    min-width: 130px;
+    /*box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);*/
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: #00416D;
+    font-size: .9rem;
+    padding: 6px 10px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    width: 130px;
+  }
+  
+  .dropdown-content a:hover {
+    /*background-color: #ddd;*/
+    background-color: #C2C4C3;
+    color: #00416D;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
 
 /* News */
 
@@ -251,3 +332,5 @@ label {
     padding: 1.5% 2%;
     margin: 3% 5% 0 5%;
 }
+
+/* ADD HOVERS STATES IN HOME PAGE */
