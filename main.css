@@ -37,6 +37,7 @@ nav a {
 
 .newsdiv {
     margin-left: 5%;
+    margin-right: 5%;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     box-shadow: 0px 3px 6px #00000029;
     border: 3px solid #FFFFFF;
@@ -83,6 +84,7 @@ nav a {
 
 .volunteerform {
     margin-left: 5%;
+    margin-right: 5%;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     box-shadow: 0px 3px 6px #00000029;
     border: 3px solid #FFFFFF;
@@ -113,7 +115,7 @@ label {
     border: 3px solid #00C7EE;
     border-radius: 60px;
     opacity: 1;  
-    margin-left: 80%;
+    margin-left: 75%;
     margin-top: 2%;
 }
 
@@ -121,11 +123,12 @@ label {
 
 .contacttitle {
     margin-left: 5%;
-    margin-top: 5%;
+    margin-top: 3%;
 }
 
 .contactform {
     margin-left: 5%;
+    margin-right: 5%;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     box-shadow: 0px 3px 6px #00000029;
     border: 3px solid #FFFFFF;
@@ -149,7 +152,7 @@ label {
     border: 3px solid #00C7EE;
     border-radius: 60px;
     opacity: 1;  
-    margin-left: 80%;
+    margin-left: 75%;
     margin-top: 2%;
 }
 
@@ -159,6 +162,7 @@ label {
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-items: center;
+    margin-top: 2%;
 }
 
 /* Newsletter */
@@ -172,7 +176,7 @@ label {
 }
 
 .newsletter form {
-    margin-left: 10%;
+    margin-left: 5%;
 }
 
 .newsletterform {
@@ -217,6 +221,7 @@ label {
 
 .sociallinks {
     margin-left: 5%;
+    margin-right: 10%;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     box-shadow: 0px 3px 6px #00000029;
     border: 3px solid #FFFFFF;
@@ -235,3 +240,14 @@ label {
     padding: 17% 0 17% 0;
 }
 
+/* Thank you */
+
+.thankyou {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border: 3px solid #FFFFFF;
+    border-radius: 20px;
+    opacity: 1;
+    padding: 1.5% 2%;
+    margin: 3% 5% 0 5%;
+}
