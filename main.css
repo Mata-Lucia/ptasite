@@ -156,6 +156,10 @@ ul {
     margin: 0 auto;
 }
 
+.newsbutton:hover {
+    background-color:rgb(255, 97, 58);
+}
+
 /* Volunteer Hours */
 
 .volunteertitle {
@@ -200,6 +204,10 @@ label {
     margin-top: 2%;
 }
 
+.volunteerbutton input:hover {
+    background-color: rgb(255, 97, 58);
+}
+
 /* Contact */
 
 .contacttitle {
@@ -236,6 +244,11 @@ label {
     margin-left: 75%;
     margin-top: 2%;
 }
+
+.contactbutton input:hover {
+    background-color: rgb(255, 97, 58);
+}
+
 
 /* Footer */
 
@@ -290,6 +303,11 @@ label {
     margin-bottom: 5%;
 }
 
+.newsletterbutton input:hover {
+    background-color: rgb(255, 97, 58);
+}
+
+
 /* Social Media */
 
 .social {
@@ -333,4 +351,31 @@ label {
     margin: 3% 5% 0 5%;
 }
 
-/* ADD HOVERS STATES IN HOME PAGE */
+/* News Page */
+
+.newslist {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border: 3px solid #FFFFFF;
+    border-radius: 20px;
+    opacity: 1;
+    padding: 1.5% 2%;
+    margin: 3% 5% 0 5%;
+}
+
+.newslist h4 {
+    color: #707070;
+}
+
+.newslist h3 {
+    color : #00416D;
+}
+
+.newslist p {
+    margin-bottom: 10%;
+}
+
+.newspagetitle {
+    margin-left: 5%;
+    margin-top: 2%;
+}
