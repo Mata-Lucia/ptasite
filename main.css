@@ -12,6 +12,10 @@ header img {
     margin-right: auto;
 }
 
+h2, h3 {
+    color: #00416D;
+}
+
 /* Navigation */
 
 /*nav ul, .dropdown ul {
